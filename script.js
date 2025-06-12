@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const lastRound = firstRow[5] ? firstRow[5].v : "N/A";
         const bgImageUrl = firstRow[6] ? firstRow[6].v : ""; // background image URL
 
-        const totalTeams = 18;
+        const totalTeams = 16;
         const showLogo = Boolean(teamLogoUrl);
 
         // Render main content inside #mockupWrapper
@@ -94,5 +94,5 @@ document.addEventListener("DOMContentLoaded", () => {
   fetchAndRender();
 
   // Set interval to fetch every 10 seconds (10000 ms)
-  setInterval(fetchAndRender, 10000);
+  setInterval(fetchAndRender, 50000);
 });
