@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   const sheetId = '1srwCRcCf_grbInfDSURVzXXRqIqxQ6_IIPG-4_gnSY8';
-  const sheetName = 'Game 7';
+  const sheetName = 'Game 8';
   const query = encodeURIComponent('SELECT T, W, X, Z, Y, AA, AH'); // AQ = new bg image url column
   const url = `https://docs.google.com/spreadsheets/d/${sheetId}/gviz/tq?tq=${query}&sheet=${sheetName}`;
 
