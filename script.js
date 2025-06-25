@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   const sheetId = '1srwCRcCf_grbInfDSURVzXXRqIqxQ6_IIPG-4_gnSY8';
-  const sheetName = 'Game 15';
+  const sheetName = 'Game 1';
   const query = encodeURIComponent('SELECT T, W, X, Z, Y, AA, AH'); // AQ = new bg image url column
   const url = `https://docs.google.com/spreadsheets/d/${sheetId}/gviz/tq?tq=${query}&sheet=${sheetName}`;
 
@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const lastRound = firstRow[5] ? firstRow[5].v : "N/A";
         const bgImageUrl = firstRow[6] ? firstRow[6].v : ""; // background image URL
 
-        const totalTeams = 18;
+        const totalTeams = 16;
         const showLogo = Boolean(teamLogoUrl);
 
         // Render main content inside #mockupWrapper
